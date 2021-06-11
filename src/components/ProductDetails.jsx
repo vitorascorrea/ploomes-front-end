@@ -19,7 +19,7 @@ export const ProductDetails = () => {
             <img alt={product.Name} src={product.PictureURL} />
             <strong>Brand:</strong> {product.Brand}
             <br></br>
-          <strong>Color:</strong> {product.Color}
+            <strong>Color:</strong> {product.Color}
           </div>
           <div className="product-info">
             <span className="product-name">{product.Name}</span>
@@ -38,7 +38,7 @@ export const ProductDetails = () => {
                 Out of stock
               </span>
             }
-          <button className="product-details-button details-button">
+            <button className="product-details-button details-button">
               <span className="details-button" onClick={() => alert('Added to cart')}>
                 Add to Cart
               </span>
